@@ -1,0 +1,3 @@
+### Studying Go is...
+
+Getting `invalid memory address or nil pointer dereference`.
