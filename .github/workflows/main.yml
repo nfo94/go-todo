@@ -27,7 +27,8 @@ jobs:
         run: |
           make install
 
-      - name: Run lint
-        run: |
-          make lint
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v6
+        with:
+          version: v1.60
       
